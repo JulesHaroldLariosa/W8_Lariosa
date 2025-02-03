@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1</title>
+</head>
+<body>
+    <button id="changeBtn">Click the button</button>
+    <header id="header">Hello</header>
+    <script>
+        const button = document.getElementById('changeBtn');
+
+        button.addEventListener('click', function() {
+            header.textContent = 'You clicked the button!';
+            });
+    </script>
+</body>
+</html>
